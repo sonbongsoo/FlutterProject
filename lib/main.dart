@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
       floatingActionButton: FloatingActionButton(
-        child: Text('번트'),
+        child: Text('버튼'),
         onPressed: () {
           print(a);
           a++;
